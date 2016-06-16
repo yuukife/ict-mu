@@ -8,12 +8,117 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+	
+	
+}
+p {
+	font-size: 14px;
+	color: #fff;
+	
+}
+h1 {
+	font-size: 28px;
+	color: #f08;
+	font-weight: bold italic;
+	font-family: tahoma verdana arial;
+	
+}
+h6 {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	font-family: verdana;
+	color: #f0f;
+	opacity:1;
+ 
 }
 
 .full {
-  background: url("file://images/fundo.jpg") no-repeat center center fixed; 
+  background: url("/images/fundo.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+/* navbar */
+.navbar-inverse {
+	background-color: #000;
+    border-color: #d7005b;
+  	opacity:0.75;
+    
+
+}
+.navbar-default {
+    background-color: #000;
+    border-color: #d7005b;
+
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #d7005b;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000;
+    background-color: #d7005b;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #d7005b;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #d7005b;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #000;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+.carousel-caption {
+	background: -moz-linear-gradient(left, rgba(0,0,0,0) 10%, rgba(0,0,0,0.85) 50%, rgba(0,0,0,0) 90%);
 }
