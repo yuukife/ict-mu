@@ -1,0 +1,14 @@
+<%= simple_form_for(@history) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :autor %>
+    <%= f.input :titulo %>
+    <%= f.input :capitulo %>
+    <%= f.input :texto %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

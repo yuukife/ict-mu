@@ -122,3 +122,11 @@ h6 {
 .carousel-caption {
 	background: -moz-linear-gradient(left, rgba(0,0,0,0) 10%, rgba(9,0,9,0.85) 50%, rgba(0,0,0,0) 90%);
 }
+.carousel-control{
+	width: 5%;
+}
+.carousel-inner{
+	width: 70%;
+	align-items: center;
+
+}
