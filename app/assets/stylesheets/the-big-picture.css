@@ -21,6 +21,7 @@ h1 {
 	color: #f08;
 	font-weight: bold italic;
 	font-family: tahoma verdana arial;
+	text-align: center;
 	
 }
 h6 {
@@ -123,7 +124,7 @@ h6 {
 	background: -moz-linear-gradient(left, rgba(0,0,0,0) 10%, rgba(9,0,9,0.85) 50%, rgba(0,0,0,0) 90%);
 }
 .carousel-control{
-	width: 5%;
+	width: 7%;
 }
 .carousel-inner{
 	width: 70%;
