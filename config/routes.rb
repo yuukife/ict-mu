@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'team_speak/new'
+
   get 'show_history/new'
 
   resources :histories
