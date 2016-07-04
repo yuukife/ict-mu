@@ -127,10 +127,5 @@ h6 {
 	width: 7%;
 }
 .carousel-inner{
-	width: 70%;
-	align-items: center;
-
-}
-.container{
-	align-items: center;
+	width: 100%;
 }
