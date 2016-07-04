@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-  get 'contact_form/new'
-
-  get 'entrar_em_contato/new'
-  post 'entrar_em_contato/new'
-  get 'entrar_em_contato/ok'
+  get 'contato/new'
 
   get 'team_speak/new'
 
@@ -11,7 +7,7 @@ Rails.application.routes.draw do
 
   resources :histories
   resources :contatos
-  resources :contact_forms
+
   
   get 'game/new'
 
