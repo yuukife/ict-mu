@@ -24,6 +24,14 @@ h1 {
 	text-align: center;
 	
 }
+h3 {
+	font-size: 20px;
+	color: #f08;
+	font-weight: bold italic;
+	font-family: tahoma verdana arial;
+	text-align: center;
+	
+}
 h6 {
 	font-size: 20px;
 	font-style: italic;
@@ -129,3 +137,4 @@ h6 {
 .carousel-inner{
 	width: 100%;
 }
+
