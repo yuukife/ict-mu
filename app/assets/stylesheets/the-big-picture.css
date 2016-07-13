@@ -41,6 +41,11 @@ h6 {
 	opacity:1;
  
 }
+h7 {
+	font-size: 13px;
+	color: #000;
+	font-style: italic;
+}
 
 .full {
   background: url("/images/fundo.jpg") no-repeat center center fixed; 
@@ -137,4 +142,3 @@ h6 {
 .carousel-inner{
 	width: 100%;
 }
-
